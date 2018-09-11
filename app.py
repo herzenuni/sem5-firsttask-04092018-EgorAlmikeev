@@ -24,15 +24,6 @@ class IncorrectConsoleArgs(Exception):
 
 
 @logger
-def is_int(digit):
-    try:
-        int(digit)
-    except:
-        return False
-    return True
-
-
-@logger
 def digit_to_str(digit):
     if digit == 0:
         string = "\nЭто нулb"
