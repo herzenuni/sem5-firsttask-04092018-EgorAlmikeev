@@ -27,7 +27,7 @@ def digit_to_str(digit):
     if digit == 0:
         string = "\nЭто нулb"
     elif digit == 1:
-        string = "\nЭто одын"
+        string = "\nЭто один"
     elif digit == 2:
         string = "\nЭто два"
     elif digit == 3:
