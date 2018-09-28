@@ -16,7 +16,6 @@ def logger(func_to_decorate):
 
 class IncorrectConsoleArgs(Exception):
     def __init__(self, what):
-        pass
         self.what = what
 
     def __str__(self):
