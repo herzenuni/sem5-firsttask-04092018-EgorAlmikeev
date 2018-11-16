@@ -16,6 +16,7 @@ def logger(func_to_decorate):
 
 class IncorrectConsoleArgs(Exception):
     def __init__(self, what):
+        pass
         self.what = what
 
     def __str__(self):
@@ -27,7 +28,7 @@ def digit_to_str(digit):
     if digit == 0:
         string = "\nЭто нулb"
     elif digit == 1:
-        string = "\nЭто один"
+        string = "\nЭто одын"
     elif digit == 2:
         string = "\nЭто два"
     elif digit == 3:
@@ -55,6 +56,8 @@ def check_console_args():
         raise IncorrectConsoleArgs("argc < 2")
     if not str(sys.argv[1]).isdigit():
         raise IncorrectConsoleArgs("argv[1] type is not int")
+    if not int(sys.argv[1]) in (0,1,2,3,4,5,6,7,8,9):
+    	raise IncorrectConsoleArgs("argv[1] is not in 0-9")
     if len(sys.argv) == 3:
         if sys.argv[2] not in ("bin", "oct", "hex"):
             raise IncorrectConsoleArgs("argv[2] is not in (bin, oct, hex)")
