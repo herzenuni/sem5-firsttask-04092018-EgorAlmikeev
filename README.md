@@ -1,6 +1,6 @@
 # sem5-firsttask-04092018
 
-[Ссылка для создания своего репозитория по данному заданию](https://classroom.github.com/assignment-invitations/91b324b2cab3849669c8d4cd85e9b976/)
+[Ссылка для создания своего репозитория по данному заданию](https://classroom.github.com/assignment-invitations/5ae4e1a052c32389e6ebd1519d8cbfd0/)
 
 ### Лабораторная работа
 
